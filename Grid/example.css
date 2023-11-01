@@ -1,0 +1,14 @@
+
+div{
+  width: 100px;
+  height: 100px;
+  background-color: bisque;
+  transform: rotatex(35deg);
+  transform: rotatey(35deg);
+  transform: rotatez(35deg);
+  transform: skewX(10deg);
+  transform: skewy(10deg);
+
+  transform: scale(1.5);
+  margin: 50px;
+}

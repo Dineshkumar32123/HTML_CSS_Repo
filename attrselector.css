@@ -1,0 +1,68 @@
+/* attr name */
+/* [href]{
+    color: blueviolet;
+    background-color: beige;
+} */
+
+/* attr=value */
+/* [href="top"]{
+    color: rgb(28, 204, 227);
+} */
+
+/* attr~="value it'll select the element that i given in the value whether the same name presented or followed with space( ) in front or back.
+Eg: 
+    <a href="top">link</a>
+    <a href="top link">Link3</a>
+    <a href="link top">Link5</a>
+*/
+/* [href~="top"]{
+    color: rgb(3, 84, 87);
+    background-color: bisque;
+} */
+
+/* attr |="value" it'll take the elements with the name and followed by - 
+eg: <a href="top">link</a> 
+    <a href="top-link">Link2</a>
+    <a href="top-link">Link2 duplicate</a>
+*/
+/* [href|="top"]{
+    color: rgb(30, 59, 59);
+    background-color: chartreuse;
+} */
+
+/* attr^="value"   This selects the elements which start with the given value. it'll check only the starting value 
+    eg: <a href="top">link</a>
+        <a href="toplink">Link1</a>
+        <a href="top-link">Link2</a>
+        <a href="top-link">Link2 duplicate</a>
+        <a href="top link">Link3</a>
+*/
+/* [href^="top"]{
+    color: #ea5959;
+    background-color: yellow;
+} */
+/* attr$="value"  it'll select the words at last and not compare the firstname
+    eg: <a href="toplink">Link1</a>
+        <a href="top-link">Link2</a>
+        <a href="top-link">Link2 duplicate</a>
+        <a href="top link">Link3</a>
+*/
+/* [href$="nk"]{
+    color:indianred ;
+    background-color: hotpink;
+} */
+
+/* attr*="value" it'll select all the elements which has the given value. it's not compare first or last..it'll select wherever it present
+eg: <a href="top">link</a>
+    <a href="toplink">Link1</a>
+    <a href="top-link">Link2</a>
+    <a href="top-link">Link2 duplicate</a>
+    <a href="top link">Link3</a>
+    <a href="link-top">Link4</a>
+    <a href="link top">Link5</a>
+*/
+/* [href*="top"]{
+    color: darkturquoise;
+    background-color: grey;
+} */
+

@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navBlock{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(12, 60, 96);
+  color: #fff3d6;
+}
+
+#navBlock>article{
+  width: 85%;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+#navBlock > article > aside:first-child{
+  width: 30px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+#navBlock > article > aside:last-child{
+  width: 70px;
+  height: inherit;
+}
+aside:last-child ul{
+  height: inherit;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+aside:last-child ul li{
+  margin-left: 25px;
+}
+aside:last-child ul li a{
+  color: #fff3d6;
+  text-decoration:none;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+aside:last-child ul li:nth-child(7) a span{
+  width: 200px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+aside:last-child ul li:nth-child(7) a span i{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin: 10px;
+}

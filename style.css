@@ -1,0 +1,85 @@
+/* #idname1{    
+  color: blueviolet;
+  text-transform: uppercase;
+  background-color: burlywood;
+} */
+/* .classname1{   class selector
+  color:brown;
+  text-align: center;
+} */
+/* .classname2{
+  color:crimson;
+  text-align: center;
+} */
+/* *{
+  background-color: lightblue; universal selector
+} */
+/* h1,p{
+  text-transform: lowercase;
+} */
+
+
+/* Descendent selector */
+/* div p{
+  color: aquamarine;
+} */
+
+/* Child selector- only select immediate child of the parent element */
+/* div>p{
+  background-color: beige;
+} */
+
+/* Adjacent sibiling selector- only applies to next child to the parent*/
+/* div+h4{
+  color: blue;
+} */
+/* General sibling selector- it applies for all the given element present below to the parent element */
+/* div~h1{
+  text-transform: uppercase;
+
+}  */
+
+
+/* a:link{
+  color: aquamarine;
+}
+a:active{
+  color: blue;
+}
+a:visited{
+  color: brown;
+} */
+
+
+/* #divBlock{
+  width: 250px;
+  height: 400px;
+  border: 2px solid #98ab54;
+  margin-left: 100px;
+  background-color: bisque;
+}
+#divBlock:hover{
+  width: 450px;
+  background-color: crimson;
+  color: #fff;
+  box-shadow: 0,10px,0;  
+} */
+
+
+/* 18-08-2023 */
+/* #input:focus{
+  color: blueviolet;
+  border: none;
+  background-color: blanchedalmond;
+} */
+
+/* First and last and nth child */
+/* ul li:first-child{
+  background-color: aquamarine;
+}
+ul li:last-child{
+  color: brown;
+}
+ul li:nth-child(odd){
+  background-color: rgb(0, 225, 255);
+} */

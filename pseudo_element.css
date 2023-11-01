@@ -1,0 +1,29 @@
+p::first-letter{
+    color: cadetblue;
+    font-size: 30px;
+}
+p::first-line{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkblue;
+    background-color:azure;
+}
+p::before{
+    content: 'This comes before to the paragraph';
+    content: url(#link of the img ....which come before the paragraph);
+}
+p::after{
+    content: 'This comes after to the paragraph with normal text';
+}
+
+ol li::marker{
+    color: blueviolet;
+    /* background-color: brown; */
+    /* background-color: aquamarine; */
+    font-size: larger;
+    
+}
+
+p::selection{
+    background-color: aquamarine;
+    color: coral;
+}

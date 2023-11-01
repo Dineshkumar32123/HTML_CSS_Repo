@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+div{
+  width: 100px;
+  height: 250px;
+  background-color: violet;
+  position: relative;
+  left: 80px;
+  top:40px;
+  /* transform: rotate(45deg); */
+  /* transform: rotate(45deg); */
+  transform: rotateZ(45deg);
+  /* transform: scale(1); */
+}

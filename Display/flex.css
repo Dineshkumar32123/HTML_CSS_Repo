@@ -1,0 +1,63 @@
+#ParentContainer{
+  width: 400px;
+  height: 400px;
+  background-color: bisque;
+  position: relative;
+  top: 100px;
+  left: 250px;
+  display: flex ;
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content:space-around ; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  flex-wrap: wrap;
+  
+  
+}
+.item1{
+  background-color: blue;
+  width: 100px;
+  height: 150px;
+  /* flex-grow:calc(1); */
+}
+.item2{
+
+  background-color: brown;
+  width: 100px;
+  height: 150px;
+  /* flex-grow:calc(1); */
+}
+.item3{
+
+  background-color: cadetblue;
+  width: 100px;
+  height: 150px;
+  /* flex-grow:4; */
+}
+
+.item4{
+  color: rgb(205, 205, 205);
+  background-color: blue;
+  width: 100px;
+  height: 150px;
+  flex-grow:calc(1);
+   flex-shrink: 10; 
+}
+.item5{
+  color: aqua;
+  background-color: brown;
+  width: 100px;
+  height: 150px;
+  flex-grow:calc(10);
+}
+.item6{
+  color: black;
+  background-color: cadetblue;
+  width: 100px;
+  height: 150px;
+  flex-grow:calc(1);
+}

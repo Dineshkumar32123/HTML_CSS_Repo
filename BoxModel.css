@@ -1,0 +1,22 @@
+/* #h1{ */
+  /* background-color: aqua; */
+  /* padding:50px; */
+  /* margin: 30px; */
+  /* margin-top: 10px;
+  margin-right: 20px;
+  margin-left:5px ; */
+  /* border: 10px double blue; */
+/* } */
+/* #h2{ */
+  background-color: blueviolet;
+/* } */
+#parentBox{
+width: 200px;
+height: 400px;
+background-color: yellow;
+border: 2px solid blue;
+}
+#childBox{
+  width: 200px;
+  height: 200px;
+}

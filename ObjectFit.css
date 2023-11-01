@@ -1,0 +1,10 @@
+#ObjectFit{
+  width: 350px;
+  height: 350px;
+  border: 2px dotted black;
+}
+#ObjectFit > img{
+  width: 350px;
+  height: 350px;
+  object-fit:cover;
+}

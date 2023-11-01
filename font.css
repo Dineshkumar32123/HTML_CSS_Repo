@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Noto+Serif+HK:wght@200&family=PT+Sans&display=swap');
+p{
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Serif HK', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    font-variant: small-caps;
+}

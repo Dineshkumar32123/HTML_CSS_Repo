@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- <form action="path/url" method="get/post"> -->
+<form action="" method="" autocomplete="on" novalidate>
+<fieldset>
+    <legend>Registration</legend>
+    <div>
+        <label for="fName">FirstName:</label>
+        <!-- <input type="text" id="fName" placeholder="enter first name" autofocus required value="SAM" disabled> -->
+        <input type="text" id="fName" placeholder="enter first name" autofocus required pattern="[A-Z a-z]{3,8}">
+    </div>
+    <div>
+        <label for="">LastName:</label>
+        <!-- <input type="text" placeholder="enter last name" required value="miller" readonly> -->
+        <input type="text" placeholder="enter last name" >
+    </div>
+    <div>
+        <label for="">Email:</label>
+        <input type="email" placeholder="enter email" pattern="[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,4}">
+    </div>
+    <div>
+        <label for="">Password:</label>
+        <input type="password" placeholder="enter password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[~!@#$%^&*])(?=.*\d).{4,8}">
+    </div>
+    <div>
+        <label for="">Mobile</label>
+        <input type="tel" placeholder="enter mobile number" pattern="[6-9]{1}[0-9]{9}" maxlength="10"> 
+    </div>
+    <div>
+        <label for="">Gender:</label>
+        <input type="radio" name="gender" id="" value="male">Male
+        <input type="radio" name="gender" id="" value="female">Female
+        <input type="radio" name="gender" id="" value="others">Others
+    </div>
+    <div>
+        <label for="">Languages:</label>
+        <input type="checkbox" name="programs" id="" value="HTML">HTML
+        <input type="checkbox" name="programs" id="" value="CSS">CSS
+        <input type="checkbox" name="programs" id="" value="JS">JS
+        <input type="checkbox" name="programs" id="" value="MongoDB">MongoDB
+        <input type="checkbox" name="programs" id="" value="ReactJS">ReactJS
+        <input type="checkbox" name="programs" id="" value="ExpressJS">ExpressJS
+    </div>
+    <div>
+        <label for="">Language:</label>
+        <select name="lang" id="" multiple>
+            <option value="Kannada">Kannada</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Telugu">Telugu</option>
+            <option value="Malayalam">Malayalam</option>
+            <option value="Hindi">Hindi</option>
+        </select>
+    </div>
+    <div>
+        <label for="">Language:</label>
+        <input type="text" list="langs">
+        <datalist id="langs">
+            <option value="Kannada">Kannada</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Telugu">Telugu</option>
+            <option value="Malayalam">Malayalam</option>
+            <option value="Hindi">Hindi</option>
+        </datalist>
+    </div>
+    <div>
+        <label for="">Address:</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="">Percentage</label>
+        <input type="range" name="range">
+    </div>
+    <div>
+        <label for="">Color:</label>
+        <input type="color" name="color">
+    </div>
+    <div>
+        <input type="submit">
+        <input type="reset">
+    </div>
+   
+</fieldset>
+</form>
+</body>
+</html>
